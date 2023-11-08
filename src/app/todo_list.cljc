@@ -1,6 +1,7 @@
 (ns app.todo-list
   (:require contrib.str
             #?(:clj [datascript.core :as d]) ; database on server
+            #?(:cljs [tech.v3.dataset :as clj-ds])
             [hyperfiddle.electric :as e]
             [hyperfiddle.electric-dom2 :as dom]
             [hyperfiddle.electric-ui4 :as ui]))

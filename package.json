@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@js-joda/core": "^5.6.1",
+    "base64-js": "^1.5.1"
+  }
+}

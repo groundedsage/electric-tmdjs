@@ -10,6 +10,7 @@
         org.clojure/tools.logging {:mvn/version "1.2.4"}
         ch.qos.logback/logback-classic {:mvn/version "1.2.11"}
         datascript/datascript {:mvn/version "1.5.2"}
+        com.cnuernber/tmdjs {:mvn/version "2.000-beta-10"}
         ring-basic-authentication/ring-basic-authentication {:mvn/version "1.1.1"}}
  :aliases {:dev
            {:extra-deps
