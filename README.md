@@ -1,5 +1,12 @@
 # electric-starter-app
 
+A repro with [tmdjs](https://github.com/cnuernber/tmdjs) as a dependency.
+
+**tmdjs** requires `js-joda` and `base64-js` as dependencies. You will need to install them.
+`yarn`
+
+Original Electric docs ->
+
 ```
 $ clj -A:dev -X user/main
 
